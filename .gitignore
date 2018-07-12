@@ -1,0 +1,8 @@
+.sonarlint
+.ctags
+*.log
+venv
+.idea
+*.pyc
+config.ini
+.vscode
