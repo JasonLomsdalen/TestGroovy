@@ -1,6 +1,15 @@
-print("Hello World!")
+# print("Hello World!")
+#
+# def feature_1():
+#     print("A bug can be seen as a feature.")
+#
+# feature_1()
 
-def feature_1():
-    print("A bug can be seen as a feature.")
+from SyntheticTestLauncher import TestRunner
 
-feature_1()
+def main():
+    suite = TestRunner()
+    suite.run_tests()
+
+if __name__ == "__main__":
+    main()
