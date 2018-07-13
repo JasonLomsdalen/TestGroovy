@@ -1,0 +1,2 @@
+requests
+git+ssh://git@code.its.calpoly.edu:7999/auto/synthetic_test_launcher.git@master#egg=synthetictestlauncher
