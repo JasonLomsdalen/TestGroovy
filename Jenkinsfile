@@ -7,7 +7,7 @@ def sq = new SonarQube(env, steps)
 def type = 'selenium'
 def ts = new Date().getTime()
 
-def project = 'polylearn_acceptance_tests'
+def project = 'GroooooovyTest'
 
 node {
 
